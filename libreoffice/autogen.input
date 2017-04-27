@@ -1,0 +1,16 @@
+--enable-debug
+--enable-dbgutil
+--without-java
+--without-help
+
+# Use icecream
+--enable-icecream
+--with-parallelism=24
+
+# Build DEB packages
+--with-distro=LibreOfficeLinux
+--with-package-format=deb
+--enable-epm
+
+# Additional language support
+--with-lang=tr
