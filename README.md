@@ -10,21 +10,6 @@ Cherry-picked plugins, bunch of customizations and (hopefully) not-too-invasive 
 
 **Depends:** vim (>=8) (+python), vimplug, exuberant-ctags, silversearcher-ag (>= 0.29.1)
 
-### i3lock-fancy-multimonitor
-![Screenshot](screenshots/i3lock1.png?raw=true "Screenshot")
-
-Original script taken from https://github.com/guimeira/i3lock-fancy-multimonitor
-
-* I've changed it to pixelate the screen instead of blurring.
-* It now shows failed attempts. (i3lock -f)
-
-**Depends:** i3lock, scrot, imagemagick
-
-### zshrc
-
-Awesome command prompt as I always wanted, using oh-my-zsh. 
-It has autocompletion, fuzzy finder, fasd (frecent file finder), Powerline integration and minor improvements.
-
 ##### How to setup
 * apt-get install powerline 
 * apt-get install silversearcher-ag
@@ -45,9 +30,3 @@ To make powerline and fasd play nice together, I've made a small change, simply 
 > cp powerline.sh /usr/share/powerline/bindings/bash/powerline.sh
 
 **Depends:** powerline, fasd
-
-### thinkfan.conf
-
-Thinkfan profile for my Thinkpad T420. Prioritizes less noise over overall heat.
-
-**Depends:** thinkfan
